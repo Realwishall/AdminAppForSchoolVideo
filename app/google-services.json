@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "506948236350",
+    "firebase_url": "https://myvideoforschool.firebaseio.com",
+    "project_id": "myvideoforschool",
+    "storage_bucket": "myvideoforschool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506948236350:android:919903ef7630c091ad4d6f",
+        "android_client_info": {
+          "package_name": "com.erdr.adminappforschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506948236350-1amv6cvg0n50s3j9bf3cqv2ptt2fg92p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erdr.adminappforschool",
+            "certificate_hash": "4bb9b5b726b5678567a4c2fd8a9e4dd79422be15"
+          }
+        },
+        {
+          "client_id": "506948236350-joedcps20u0mnk0e7t4s6meqq0tsqubn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5um-LOz2G_Hq_bK6vn_GeDFUau42Ygpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506948236350-joedcps20u0mnk0e7t4s6meqq0tsqubn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506948236350:android:2be32151f1e847fcad4d6f",
+        "android_client_info": {
+          "package_name": "com.erdr.erdr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506948236350-dlmcm263phvral29mgb54ds35ral7t0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erdr.erdr",
+            "certificate_hash": "4bb9b5b726b5678567a4c2fd8a9e4dd79422be15"
+          }
+        },
+        {
+          "client_id": "506948236350-joedcps20u0mnk0e7t4s6meqq0tsqubn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5um-LOz2G_Hq_bK6vn_GeDFUau42Ygpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506948236350-joedcps20u0mnk0e7t4s6meqq0tsqubn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506948236350:android:a3b2f6758ee750a7ad4d6f",
+        "android_client_info": {
+          "package_name": "com.erdr.gkdgps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506948236350-vio68ghb9p3r3h30gsigh4tgljulgg2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erdr.gkdgps",
+            "certificate_hash": "4bb9b5b726b5678567a4c2fd8a9e4dd79422be15"
+          }
+        },
+        {
+          "client_id": "506948236350-joedcps20u0mnk0e7t4s6meqq0tsqubn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5um-LOz2G_Hq_bK6vn_GeDFUau42Ygpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506948236350-joedcps20u0mnk0e7t4s6meqq0tsqubn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506948236350:android:2c3c25adcb821aa9ad4d6f",
+        "android_client_info": {
+          "package_name": "com.erdr.rlbvideolib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506948236350-9as5k7884b99scsvlt0pu63u4cs62e1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erdr.rlbvideolib",
+            "certificate_hash": "4bb9b5b726b5678567a4c2fd8a9e4dd79422be15"
+          }
+        },
+        {
+          "client_id": "506948236350-joedcps20u0mnk0e7t4s6meqq0tsqubn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5um-LOz2G_Hq_bK6vn_GeDFUau42Ygpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506948236350-joedcps20u0mnk0e7t4s6meqq0tsqubn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

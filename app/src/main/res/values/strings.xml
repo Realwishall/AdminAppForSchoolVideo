@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AdminAppForSchool</string>
+    <string name="spinner_title_class">Select Class</string>
+    <string name="select_class">Select Class</string>
+
+    <string-array name="planets_array">
+        <item>Select Class</item>
+        <item>CrashCourse NEET</item>
+        <item>CrashCourse JEE(Mains)</item>
+        <item>CrashCourse JEE(Adv)</item>
+        <item>Class 12</item>
+        <item>Class 11</item>
+        <item>Class 10</item>
+        <item>Class 9</item>
+        <item>Class 8</item>
+        <item>Class 7</item>
+        <item>Class 6</item>
+        <item>Class 5</item>
+        <item>Class 4</item>
+        <item>Class 3</item>
+        <item>Class 2</item>
+        <item>Class 1</item>
+    </string-array>
+</resources>
