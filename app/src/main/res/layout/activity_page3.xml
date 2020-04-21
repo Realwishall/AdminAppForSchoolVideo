@@ -13,7 +13,7 @@
     </EditText>
     <Button
         android:onClick="AddNewClass"
-        android:text="Create New Class"
+        android:text="Create New Chapter"
         style="@style/Widget.AppCompat.Button.Colored"
         app:layout_constraintTop_toBottomOf="@+id/edit"
         android:id="@+id/top"

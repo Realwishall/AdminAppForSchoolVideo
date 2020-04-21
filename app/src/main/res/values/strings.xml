@@ -2,6 +2,7 @@
     <string name="app_name">AdminAppForSchool</string>
     <string name="spinner_title_class">Select Class</string>
     <string name="select_class">Select Class</string>
+    <string name="schoolNamelectureFileAddress">AllVideoData</string>
 
     <string-array name="planets_array">
         <item>Select Class</item>

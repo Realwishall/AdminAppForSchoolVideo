@@ -53,7 +53,7 @@ public class Page3 extends AppCompatActivity {
         FirebaseFirestore db;
         db = FirebaseFirestore.getInstance();
         DocumentReference docRef = db
-                .collection("RLBvideodata/VIDEODATA/"+NameOfClass+"/SubjectName/"+NameOfSubject)
+                .collection(getString(R.string.schoolNamelectureFileAddress)+"/VIDEODATA/"+NameOfClass+"/SubjectName/"+NameOfSubject)
                 .document("ChapterName");
         docRef.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
@@ -118,7 +118,7 @@ public class Page3 extends AppCompatActivity {
 
         FirebaseFirestore db;
         db = FirebaseFirestore.getInstance();
-        db.collection("RLBvideodata/VIDEODATA/"+NameOfClass+"/SubjectName/"+NameOfSubject).document("ChapterName")
+        db.collection(getString(R.string.schoolNamelectureFileAddress)+"/VIDEODATA/"+NameOfClass+"/SubjectName/"+NameOfSubject).document("ChapterName")
                 .set(city, SetOptions.merge())
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override

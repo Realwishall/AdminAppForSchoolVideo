@@ -57,7 +57,7 @@ RecyclerView recyclerView;
 
         FirebaseFirestore db;
         db = FirebaseFirestore.getInstance();
-        DocumentReference docRef = db.collection("RLBvideodata/VIDEODATA/"+NameOfClass).document("SubjectName");
+        DocumentReference docRef = db.collection(getString(R.string.schoolNamelectureFileAddress)+"/VIDEODATA/"+NameOfClass).document("SubjectName");
         docRef.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
@@ -122,7 +122,7 @@ RecyclerView recyclerView;
 
         FirebaseFirestore db;
         db = FirebaseFirestore.getInstance();
-        db.collection("RLBvideodata/VIDEODATA/"+NameOfClass).document("SubjectName")
+        db.collection(getString(R.string.schoolNamelectureFileAddress)+"/VIDEODATA/"+NameOfClass).document("SubjectName")
                 .set(city, SetOptions.merge())
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override

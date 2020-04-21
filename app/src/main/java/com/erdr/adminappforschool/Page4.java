@@ -60,7 +60,7 @@ public class Page4 extends AppCompatActivity {
         FirebaseFirestore db;
         db = FirebaseFirestore.getInstance();
         DocumentReference docRef = db
-                .collection("RLBvideodata/VIDEODATA/"+NameOfClass+"/SubjectName/"+NameOfSubject+"/ChapterName/"+NameOfChapter)
+                .collection(getString(R.string.schoolNamelectureFileAddress)+"/VIDEODATA/"+NameOfClass+"/SubjectName/"+NameOfSubject+"/ChapterName/"+NameOfChapter)
                 .document("Lecture");
         docRef.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
@@ -151,7 +151,7 @@ public class Page4 extends AppCompatActivity {
 
         FirebaseFirestore db;
         db = FirebaseFirestore.getInstance();
-        db.collection("RLBvideodata/VIDEODATA/"+NameOfClass+"/SubjectName/"+NameOfSubject+"/ChapterName/"+NameOfChapter)
+        db.collection(getString(R.string.schoolNamelectureFileAddress)+"/VIDEODATA/"+NameOfClass+"/SubjectName/"+NameOfSubject+"/ChapterName/"+NameOfChapter)
                 .document("Lecture")
                 .set(city, SetOptions.merge())
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -263,13 +263,14 @@ public class Page4 extends AppCompatActivity {
             return;
         }
 
+        path = path.replace(".pdf", "");
         Map<String, Object> city = new HashMap<>();
         city.put("ChapterName", NameOfChapter);
         city.put(s,path);
 
         FirebaseFirestore db;
         db = FirebaseFirestore.getInstance();
-        db.collection("RLBvideodata/VIDEODATA/"+NameOfClass+"/SubjectName/"+NameOfSubject+"/ChapterName/"+NameOfChapter)
+        db.collection(getString(R.string.schoolNamelectureFileAddress)+"/VIDEODATA/"+NameOfClass+"/SubjectName/"+NameOfSubject+"/ChapterName/"+NameOfChapter)
                 .document("Lecture")
                 .set(city, SetOptions.merge())
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
